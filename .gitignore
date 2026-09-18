@@ -1,0 +1,46 @@
+# Environment & Secrets
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+
+# Datasets & Private Images
+**/images/
+preview_outputs/
+test_sandbox/
+deep_test/
+
+# Python Bytecode & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Binary Models & Archives
+*.joblib
+*.pkl
+*.pth
+*.onnx
+*.h5
+*.zip
+
+# Temporary prediction CSVs
+predictions.csv
+rule_preds.csv
+boxes.csv
+t1_dev_pred.csv
+t1_train_pred.csv
+t2_dev_boxes.csv
+t2_nometa_boxes.csv
+test_dev_preds.csv
+
+# IDE & System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
